@@ -13,7 +13,7 @@ const app = express();
 app.use(logger);
 
 app.get('/', (req, res, next) => {
-  res.status(200).send('Hello World');
+  res.status(200).send('Hello! Server is up and running!');
 });
 
 app.get('/bad', (req, res, next) => {
